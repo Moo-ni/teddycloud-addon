@@ -1,0 +1,24 @@
+{
+  "name": "TeddyCloud",
+  "version": "1.0.0",
+  "slug": "teddycloud",
+  "description": "TeddyCloud Add-on für Home Assistant",
+  "arch": ["amd64", "armv7", "armhf", "aarch64"],
+  "startup": "services",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "map": [
+    "config:rw",
+    "data:rw",
+    "certs:rw"
+  ],
+  "ports": {
+    "8080/tcp": 8080
+  },
+  "host_network": true,
+  "webui": "http://[HOST]:8080",
+  "image": "local/teddycloud:latest",
+  "devices": [],
+  "environment": {}
+}

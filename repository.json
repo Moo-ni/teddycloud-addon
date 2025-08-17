@@ -1,0 +1,16 @@
+{
+  "name": "TeddyCloud Repository",
+  "slug": "teddycloud-repo",
+  "url": "https://github.com/Moo-ni/teddycloud-addon",
+  "maintainers": ["Moo-ni"],
+  "addons": [
+    {
+      "name": "TeddyCloud",
+      "slug": "teddycloud",
+      "description": "TeddyCloud Add-on for Home Assistant",
+      "version": "1.0.0",
+      "url": "https://github.com/Moo-ni/teddycloud-addon",
+      "arch": ["amd64", "armv7", "armhf", "aarch64"]
+    }
+  ]
+}
