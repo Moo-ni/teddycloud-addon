@@ -5,10 +5,10 @@
   "description": "Ein Home Assistant Add-on für TeddyCloud.",
   "url": "https://github.com/Moo-ni/teddycloud-addon",
   "maintainer": "Moo-ni",
-  "arch": ["amd64", "armv7", "arm64"],
+  "arch": ["amd64", "armv7", "armhf", "aarch64"],
   "startup": "services",
   "boot": "auto",
-  "map": ["config:rw"],
+  "map": ["config:rw", "data:rw", "certs:rw"],
   "options": {},
   "schema": {}
 }
