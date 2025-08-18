@@ -1,2 +1,5 @@
 #!/usr/bin/with-contenv bashio
-exec /init
+
+# Start-TeddyCloud-Add-on
+echo "Starte TeddyCloud Server..."
+exec /usr/local/bin/teddycloud
